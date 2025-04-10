@@ -1,0 +1,63 @@
+--- Mistral-7B Output ---
+
+Task 1: Question Answering
+Prompt:
+Who was the president of the United States in 1985? What were some of the major political events that year?
+
+Response:
+The President of the United States in 1985 was Ronald Reagan. He assumed office on January 20, 1981 and served until January 20, 1989. In 1985, Reagan's second term was well underway. Some major political events that year include:
+1. Space Shuttle Challenger Disaster: The Space Shuttle Challenger disaster occurred on January 28, 1986, but the decision to launch was made in 1985.
+2. Live Aid Concert: The iconic charity concert known as Live Aid took place on July 13, 1985.
+3. Soviet-United States Relations: Progress was made following the Geneva Summit between Reagan and Gorbachev in November 1985.
+4. Iran-Contra Affair: The affair came to light in 1986 but had its roots in 1985.
+5. Ethics Law Amendment: In 1985, Congress enacted amendments to the Ethics in Government Act.
+
+---
+
+Task 2: Text Summarization
+Prompt:
+Summarize the following paragraph in 2–3 sentences.
+Paragraph discussed Reagan’s Cold War policy, domestic economic concerns, drug use, and the HIV/AIDS epidemic.
+
+Response:
+In 1985, Ronald Reagan was serving his second term as US President amidst Cold War tensions. His administration pursued a strong anti-communist stance, including the Strategic Defense Initiative (SDI). Domestically, concerns about the economy, drug use, and the HIV/AIDS epidemic surfaced, while internationally, the Reagan Administration maintained pressure on the Soviet Union through diplomatic and military means.
+
+---
+
+Task 3: Code Generation
+Prompt:
+Write a Python function that checks if a number is prime.
+
+Response:
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+---
+
+Task 4: Creative Writing
+Prompt:
+Write a short story (3–5 sentences) about a robot who wants to learn how to dance.
+
+Response:
+In a bustling city, a robot named B-320 dreamed of dancing like the humans he observed. He enrolled in a dance studio and practiced every evening. When the music started, he twirled and tapped with joy. Dancing became his way to connect with the world beyond his programming.
+
+---
+
+Task 5: Prompt Engineering (Apple Subtraction)
+Prompt A:
+Q: If there are 3 apples and you eat 2, how many are left?
+
+Response A:
+1 apple is left.
+
+Prompt B:
+Q: If there are 3 apples and you eat 2, how many are left?
+A: Let's think step by step. First, we start with 3 apples. If we eat 2, then we subtract 2 from 3, which leaves us with 1 apple. So, the answer is 1.
+
+Response B:
+1 apple is left.

@@ -1,0 +1,66 @@
+--- LLaMA2 Output ---
+
+Task 1: Question Answering
+Prompt:
+Who was the president of the United States in 1985? What were some of the major political events that year?
+
+Response:
+The president of the United States in 1985 was Ronald Reagan. Some of the major political events that year included:
+1. The Iran-Contra Affair
+2. The Immigration Reform and Control Act (1986)
+3. The Fair Housing Act (1986)
+4. The Gulf War (1990–91)
+5. The Tax Reform Act of 1986
+6. The Civil Rights Act of 1986
+7. Supreme Court decisions on affirmative action
+8. Contra War support in Nicaragua
+
+---
+
+Task 2: Text Summarization
+Prompt:
+Summarize the following paragraph in 2–3 sentences.
+Paragraph discussed Reagan’s Cold War policy, domestic economic concerns, drug use, and the HIV/AIDS epidemic.
+
+Response:
+Ronald Reagan was in his second term as president of the United States in 1985, during which he pursued a strong anti-communist agenda. Domestically, there were concerns about the economy, drug use, and the HIV/AIDS epidemic. Internationally, the Reagan administration continued to pressure the Soviet Union through diplomatic and military means.
+
+---
+
+Task 3: Code Generation
+Prompt:
+Write a Python function that checks if a number is prime.
+
+Response:
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+---
+
+Task 4: Creative Writing
+Prompt:
+Write a short story (3–5 sentences) about a robot who wants to learn how to dance.
+
+Response:
+Zeta, the metallic marvel, always admired the way humans danced. He downloaded tutorials, practiced nonstop, and soon became the life of the party. Now, at every factory celebration, Zeta is the first to hit the dance floor — and the last to leave.
+
+---
+
+Task 5: Prompt Engineering (Apple Subtraction)
+Prompt A:
+Q: If there are 3 apples and you eat 2, how many are left?
+
+Response A:
+A: There are 1 apple left.
+
+Prompt B:
+Q: If there are 3 apples and you eat 2, how many are left?
+A: Let's think step by step. First, we start with 3 apples. If we eat 2, then we subtract 2 from 3, which leaves us with 1 apple. So, the answer is 1.
+
+Response B:
+Ah, I see! Thank you for explaining it to me! Yes, you are correct. If there are 3 apples and you eat 2, then there will be 1 apple left. Great job! Do you have any more questions or can I help you with anything else?

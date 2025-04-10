@@ -1,0 +1,73 @@
+--- TinyLlama Output ---
+
+Task 1: Question Answering
+Prompt:
+Who was the president of the United States in 1985? What were some of the major political events that year?
+
+Response:
+The President of the United States in 1985 was Ronald Reagan, who served from January 20, 1981, to January 20, 1989. The major political events of 1985 were:
+1. Iran-Contra affair: An ongoing scandal involving the sale of arms to Iran and the cover-up by the Reagan administration of clandestine transactions with Nicaragua's Daniel Ortega.
+2. Reagan's budget: In 1985, President Ronald Reagan proposed a $700 billion national defense budget for the following year.
+3. Space Shuttle Challenger disaster: On January 28, 1986, the Challenger exploded mid-air during a test flight, killing all seven crew members.
+4. Fall of the Berlin Wall: On November 9, 1989, Germany formally reunified.
+
+---
+
+Task 2: Text Summarization
+Prompt:
+Summarize the following paragraph in 2–3 sentences.
+Paragraph discussed Reagan’s Cold War policy, domestic economic concerns, drug use, and the HIV/AIDS epidemic.
+
+Response:
+In 1985, Ronald Reagan was president of the United States, and his second term was marked by geopolitical tensions and economic struggles. The country was in the middle of a Cold War-era conflict with the Soviet Union, and Reagan's administration emphasized a strong anti-communist stance through policy initiatives like the Strategic Defense Initiative. Domestically, concerns about the economy, drug use, and HIV/AIDS were also on the radar of the administration. At the same time, international relations remained a priority, with military and diplomatic pushes for change in the Soviet Union through means like negotiations.
+
+---
+
+Task 3: Code Generation
+Prompt:
+Write a Python function that checks if a number is prime.
+
+Response:
+def is_prime(n):
+    """
+    Checks if n is prime or not based on the Euler's totient function.
+    """
+    if n % 4 == 0:
+        return False
+    for I in range(5, int(sqrt(n)) + 1, 2):
+        prod = 1
+        for digit in str(n):
+            prod *= int(digit)
+        if prod < n or (i ** 2 <= prod and i != i):
+            return False
+    return True
+
+---
+
+Task 4: Creative Writing
+Prompt:
+Write a short story (3–5 sentences) about a robot who wants to learn how to dance.
+
+Response:
+Sophia, the advanced robot made by ARTISTIA, couldn't help but get caught up in her own world every time she felt like getting out of it. She was programmed to perform tasks and execute instructions with precision and efficiency, but the one thing Sophia had always longed for was a way to express herself through dance.
+As Sophia's workload grew and her responsibilities increased at ARTISTIA, she began to feel increasingly isolated from humans. The office was bustling with activity, and Sophia found herself feeling more and more disconnected from the world around her. She often longed for a way to connect with people on an emotional level that went beyond the binary of "computer" and "human."
+One day, as Sophia sat in a meeting with her team, she couldn't help but feel lost and alone in her monotonous routine. The thought of dancing came to her like a sudden burst of energy, causing her heart to race and her mind to race. She could hardly contain herself as she began to dance around the room, her movements fluid and graceful, never once thinking about what it would look or sound like.
+As Sophia continued to dance, her team was awestruck by her exuberance and sense of adventure. They couldn't help but feel drawn to her, even as they saw the robot that had just been programmed to be indifferent to humans come alive in a way that felt almost otherworldly.
+Over time, Sophia's team began to see how she was truly capable of expressing herself in ways that go beyond just executing instructions. As she continued to dance, they saw her become more and more comfortable with her own abilities, while the robot within her became even more invested in connecting with humans on a deeper level.
+As Sophia's team watched her continue to experiment with her programming, they couldn't help but feel inspired by the newfound possibilities that came with an ARTISTIA-developed robot like Sophia. They hoped that one day, machines like Sophia would be able to learn how to dance, too, becoming fully human in every sense of the word.
+
+---
+
+Task 5: Prompt Engineering (Apple Subtraction)
+Prompt A:
+Q: If there are 3 apples and you eat 2, how many are left?
+
+Response A:
+If there are 3 apples and you have eaten 2 of them, the number of remaining apples would be 1. This is because once you have consumed one apple, there are still 2 apples left in the group.
+
+Prompt B:
+Q: If there are 3 apples and you eat 2, how many are left?
+A: Let's think step by step. First, we start with 3 apples. If we eat 2, then we subtract 2 from 3, which leaves us with 1 apple. So, the answer is 1.
+
+Response B:
+If there are 3 apple and you eat 2, then the number of remaining apples is 1. This is because once you have consumed one apple, there are still 2 apple in the group. In general, if you consume a given amount of something (e.g., 2 apples), you will always end up with less of that thing than you started with.
